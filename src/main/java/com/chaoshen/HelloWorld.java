@@ -32,7 +32,7 @@ public class HelloWorld {
             System.out.println("chaoshen");
             while(it.hasNext()){
                 String key=it.next();
-                 returnStr = prop.getProperty(key);
+                 returnStr = prop.getProperty(key+"!!!!");
             }
             in.close();
         }catch (Exception e){
